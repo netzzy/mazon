@@ -12,7 +12,7 @@ bot.7*
 bot.8*
 bot.9*
 
-
+*.pem
 # Folder config file
 Desktop.ini
 
