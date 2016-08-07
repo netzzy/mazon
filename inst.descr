@@ -1,0 +1,18 @@
+SPOTINSTANCEREQUESTS	2016-08-06T04:32:28.000Z	i-0258be9cd8ec0c9ae	us-west-2c	Linux/UNIX	sir-03cfz7hb	2.000000	closed	one-time
+LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	Tagaeva_cfgkey1_us_west_2	subnet-e87baeb0
+MONITORING	True
+PLACEMENT	us-west-2c
+SECURITYGROUPS	sg-8487dee2	cfgsecgrp1
+STATUS	instance-terminated-capacity-oversubscribed	Your Spot instance was terminated because the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-06T21:07:23.000Z
+SPOTINSTANCEREQUESTS	2016-08-06T21:08:20.000Z	i-035f6d794eab71c37	us-west-2c	Linux/UNIX	sir-03cmj7ab	2.000000	closed	one-time
+LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	Tagaeva_cfgkey1_us_west_2	subnet-e87baeb0
+MONITORING	True
+PLACEMENT	us-west-2c
+SECURITYGROUPS	sg-8487dee2	cfgsecgrp1
+STATUS	instance-terminated-capacity-oversubscribed	Your Spot instance was terminated because the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-06T23:54:19.000Z
+SPOTINSTANCEREQUESTS	2016-08-06T23:55:35.000Z			Linux/UNIX	sir-03ch0hkl	2.000000	open	one-time
+LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	Tagaeva_cfgkey1_us_west_2	subnet-e87baeb0
+MONITORING	True
+PLACEMENT	us-west-2c
+SECURITYGROUPS	sg-8487dee2	cfgsecgrp1
+STATUS	capacity-oversubscribed	Your Spot request with price 2.0 was not fulfilled as the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-06T23:56:19.000Z
