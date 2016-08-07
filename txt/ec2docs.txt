@@ -1,0 +1,37 @@
+aws ec2 create-security-group --group-name ALLACC --description "in and out" --protocol tcp --cidr * 
+
+aws autoscaling create-launch-configuration --launch-configuration-name eth05 --image-id ami-3bda6748 --instance-type g2.8xlarge --spot-price "0.30" --key-name E1 --security-groups ALLACC
+
+
+aws autoscaling create-auto-scaling-group --auto-scaling-group-name eth01 --launch-configuration-name eth01 --min-size 1 --max-size 1 --desired-capacity 1 --default-cooldown 600 --termination-policies "OldestInstance" --availability-zones eu-west-1a
+
+
+
+aws autoscaling create-auto-scaling-group --auto-scaling-group-name eth4l --launch-configuration-name eth4 --min-size 1 --max-size 1 --desired-capacity 1 --default-cooldown 600 --termination-policies "OldestInstance" --availability-zones eu-west-1a
+
+
+aws ec2 describe-spot-price-history --instance-types g2.8xlarge --availability-zone eu-west-1a --region eu-west-1 --product-description "Linux/UNIX"
+aws ec2 describe-spot-price-history --instance-types g2.8xlarge --availability-zone us-west-1b --region eu-west-1a --product-description "Linux/UNIX"
+aws ec2 describe-spot-price-history --instance-types g2.8xlarge --availability-zone us-west-2a --region us-west-2 --product-description "Linux/UNIX"
+aws ec2 describe-availability-zones --region us-east-1
+
+
+aws ec2 copy-image --source-image-id ami-682ab81b --source-region eu-west-1 --region ap-northeast-1 --name "Ethereum cuda"
+aws ec2 describe-regions
+
+aws ec2 create-security-group --group-name ALLACC --description "in and out" --region ap-northeast-1
+
+
+aws autoscaling create-launch-configuration --launch-configuration-name eth05 --image-id ami-3bda6748 --instance-type g2.8xlarge --spot-price "0.30" --security-groups ALLACC --region ap-northeast-1
+
+
+aws autoscaling create-auto-scaling-group --auto-scaling-group-name eth05 --launch-configuration-name eth05 --min-size 1 --max-size 1 --desired-capacity 1 --default-cooldown 600 --termination-policies "OldestInstance" --availability-zones ap-northeast-1a --region ap-northeast-1
+
+aws autoscaling delete-auto-scaling-group --auto-scaling-group-name eth45 --force-delete
+aws autoscaling delete-launch-configuration --launch-configuration-name eth45
+
+
+
+aws autoscaling create-launch-configuration --launch-configuration-name eth05 --image-id ami-3bda6748 --instance-type g2.8xlarge --spot-price "0.40" --security-groups ALLACC --region ap-northeast-1
+
+aws autoscaling create-auto-scaling-group --auto-scaling-group-name eth4 --launch-configuration-name eth4 --min-size 1 --max-size 1 --desired-capacity 1 --default-cooldown 600 --termination-policies "OldestInstance" --availability-zones ap-northeast-1a --region ap-northeast-1
