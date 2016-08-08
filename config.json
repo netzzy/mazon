@@ -1,0 +1,5 @@
+   {
+      "ImageId": "ami-d0f506b0",
+      "InstanceType": "c3.large",
+	  "SecurityGroupIds": [ "sg-a50a25c3" ]
+  }

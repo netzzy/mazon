@@ -1,0 +1,1 @@
+START "" "c:\Program Files (x86)\Proxifier\"Proxifier.exe /B
