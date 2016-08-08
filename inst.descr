@@ -1,24 +1,24 @@
-SPOTINSTANCEREQUESTS	2016-08-07T16:42:06.000Z	i-01b2cd8cd52121dce	us-west-2c	Linux/UNIX	sir-03clrv7p	2.000000	closed	one-time
+SPOTINSTANCEREQUESTS	2016-08-07T22:32:52.000Z	i-0696a8ef0e4db7edf	us-west-2c	Linux/UNIX	sir-03clpxvx	2.000000	closed	one-time
 LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	kolomeytsev_cfgkey1_us_west_2	subnet-873697df
 MONITORING	True
 PLACEMENT	us-west-2c
 SECURITYGROUPS	sg-c2d3f4a4	cfgsecgrp1
-STATUS	instance-terminated-capacity-oversubscribed	Your Spot instance was terminated because the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-07T18:37:41.000Z
-SPOTINSTANCEREQUESTS	2016-08-07T18:39:12.000Z	i-0c15ffa33beba2d68	us-west-2c	Linux/UNIX	sir-03cl30z0	2.000000	closed	one-time
+STATUS	instance-terminated-capacity-oversubscribed	Your Spot instance was terminated because the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-08T08:28:56.000Z
+SPOTINSTANCEREQUESTS	2016-08-08T08:32:10.000Z	i-0c6ec5bd88f24eab0	us-west-2c	Linux/UNIX	sir-03clbdxv	2.000000	closed	one-time
 LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	kolomeytsev_cfgkey1_us_west_2	subnet-873697df
 MONITORING	True
 PLACEMENT	us-west-2c
 SECURITYGROUPS	sg-c2d3f4a4	cfgsecgrp1
-STATUS	instance-terminated-capacity-oversubscribed	Your Spot instance was terminated because the number of Spot requests with equal or higher prices exceeds the available capacity in this pool.	2016-08-07T20:51:50.000Z
-SPOTINSTANCEREQUESTS	2016-08-07T20:54:13.000Z	i-070b7c4d8ed0f0e84	us-west-2c	Linux/UNIX	sir-03cm6at6	2.000000	closed	one-time
+STATUS	instance-terminated-no-capacity	Your Spot instance was terminated because there is no Spot capacity available that matches your request.	2016-08-08T09:04:22.000Z
+SPOTINSTANCEREQUESTS	2016-08-08T09:06:09.000Z	i-0c129616164e5c277	us-west-2c	Linux/UNIX	sir-03cjclbf	2.000000	closed	one-time
 LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	kolomeytsev_cfgkey1_us_west_2	subnet-873697df
 MONITORING	True
 PLACEMENT	us-west-2c
 SECURITYGROUPS	sg-c2d3f4a4	cfgsecgrp1
-STATUS	instance-terminated-no-capacity	Your Spot instance was terminated because there is no Spot capacity available that matches your request.	2016-08-07T22:29:36.000Z
-SPOTINSTANCEREQUESTS	2016-08-07T22:32:52.000Z			Linux/UNIX	sir-03clpxvx	2.000000	open	one-time
+STATUS	instance-terminated-no-capacity	Your Spot instance was terminated because there is no Spot capacity available that matches your request.	2016-08-08T09:23:29.000Z
+SPOTINSTANCEREQUESTS	2016-08-08T09:24:10.000Z			Linux/UNIX	sir-03cqb239	2.000000	open	one-time
 LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	kolomeytsev_cfgkey1_us_west_2	subnet-873697df
 MONITORING	True
 PLACEMENT	us-west-2c
 SECURITYGROUPS	sg-c2d3f4a4	cfgsecgrp1
-STATUS	capacity-not-available	There is no Spot capacity available that matches your request.	2016-08-07T22:33:28.000Z
+STATUS	capacity-not-available	There is no Spot capacity available that matches your request.	2016-08-08T09:25:01.000Z
