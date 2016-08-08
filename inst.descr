@@ -1,0 +1,12 @@
+SPOTINSTANCEREQUESTS	2016-08-08T17:17:48.000Z	Linux/UNIX	sir-03cg5gtz	1.200000	cancelled	one-time
+LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	inbox_cfgkey1_us_west_2	subnet-d7c38bb3
+MONITORING	True
+PLACEMENT	us-west-2a
+SECURITYGROUPS	sg-bbb09bdd	cfgsecgrp1
+STATUS	canceled-before-fulfillment	Your Spot request is canceled before it was fulfilled.	2016-08-08T17:19:18.000Z
+SPOTINSTANCEREQUESTS	2016-08-08T17:20:09.000Z	Linux/UNIX	sir-03cp69k1	1.000000	open	one-time
+LAUNCHSPECIFICATION	ami-2b14da4b	g2.2xlarge	inbox_cfgkey1_us_west_2	subnet-d7c38bb3
+MONITORING	True
+PLACEMENT	us-west-2a
+SECURITYGROUPS	sg-bbb09bdd	cfgsecgrp1
+STATUS	capacity-not-available	There is no Spot capacity available that matches your request.	2016-08-08T17:20:39.000Z
